@@ -30,7 +30,7 @@ In this repository, you will find code examples and projects that use Manim to i
 3. Run a Manim script:
 
    ```bash
-   manim -pqh script.py
+   manim -pqh scripts/script.py
    ```
 
 ## Follow Me
@@ -88,7 +88,7 @@ Dans ce dépôt, vous trouverez des exemples de code et des projets qui utilisen
 3. Exécutez un script Manim :
 
    ```bash
-   manim -pqh script.py
+   manim -pqh scripts/script.py
    ```
 
 ## Suivez-moi
