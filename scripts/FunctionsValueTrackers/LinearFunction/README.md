@@ -1,6 +1,6 @@
-# The Linear Function
+# Visualizing the Effects of Coefficients on a Linear Function
 
-This folder contains the script used to create the video titled **The Linear Function**.
+This folder contains the script used to create the video titled **Visualizing the Effects of Coefficients on a Linear Function**.
 
 ## Associated Videos
 
