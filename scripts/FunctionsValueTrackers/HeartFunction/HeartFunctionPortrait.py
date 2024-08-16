@@ -3,8 +3,8 @@ import numpy as np
 
 config.pixel_height = 3840
 config.pixel_width = 2160
-config.frame_height = 16  # Ajuster la hauteur du cadre
-config.frame_width = 9  # Ajuster la largeur du cadre
+config.frame_height = 16
+config.frame_width = 9
 
 class HeartFunctionPortrait(Scene):
     def construct(self):
@@ -33,13 +33,11 @@ class HeartFunctionPortrait(Scene):
         k_text = always_redraw(lambda: MathTex('k =', f'{k.get_value():.2f}').next_to(function_label, DOWN).set_color_by_tex(f'{k.get_value():.2f}', PINK))
         title = Text("The Heart Function").set_color(PINK).next_to(axes, UP * 4)
 
-        # Ajout des éléments à la scène
         self.play(Write(title))
         self.play(Create(axes), Write(axes_labels))
         self.play(Write(function), Write(function_label))
         self.play(Write(k_text))
 
-        # Animation de la variation des coefficients a et b
         self.play(k.animate.set_value(10), run_time=7)
         self.wait(2)
         self.play(FadeOut(axes, axes_labels, function, function_label, k_text, title))
