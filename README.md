@@ -1,6 +1,6 @@
 # Manim-Videos
 
-Welcome to **Manim-Videos**! This repository contains all the scripts used to create my math videos made with the [Manim](https://github.com/3b1b/manim) library.
+Welcome to **Manim-Videos**! This repository contains all the scripts used to create my math videos made with the [Manim](https://github.com/ManimCommunity/manim) library.
 
 ---
 
